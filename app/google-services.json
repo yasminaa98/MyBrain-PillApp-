@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "487264292032",
+    "firebase_url": "https://pillapp-98379.firebaseio.com",
+    "project_id": "pillapp-98379",
+    "storage_bucket": "pillapp-98379.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487264292032:android:1894d07fa1597602c2f125",
+        "android_client_info": {
+          "package_name": "com.example.pillapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487264292032-cb3p0j1o92lq69eu771vm3mqqqvjqmle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_jsviCunLhrI2vioJQmoLgexZQ5D_85Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487264292032-cb3p0j1o92lq69eu771vm3mqqqvjqmle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="196dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <ImageView
+                    android:layout_width="148dp"
+                    android:layout_height="92dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/mybrain"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="92dp"
+                    android:layout_height="114dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_logo"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="50dp"
+                android:text="Temps des prises :"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="50dp"
+                android:text="Prise 1: "
+                android:textAlignment="viewStart"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/prise1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/white"
+                android:editable="false"
+                android:hint="1ere prise:  hh:mm"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                tools:ignore="Autofill,HardcodedText,TextFields" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="50dp"
+                android:text="Prise 2: "
+                android:textAlignment="viewStart"
+                android:textColor="@color/white" />
+
+
+            <EditText
+                android:id="@+id/prise2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/white"
+                android:editable="false"
+                android:hint="2eme prise:  hh:mm"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                tools:ignore="Autofill,HardcodedText,TextFields" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="50dp"
+                android:text="Prise 3: "
+                android:textAlignment="viewStart"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/prise3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/white"
+                android:editable="false"
+                android:hint="3eme prise:  hh:mm"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                tools:ignore="Autofill,HardcodedText,TextFields" />
+
+            <Button
+                android:id="@+id/user_save"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/roundedshape"
+                android:text="Enregistrer"
+                tools:ignore="HardcodedText" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

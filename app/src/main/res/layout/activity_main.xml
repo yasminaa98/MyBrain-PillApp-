@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:gravity="center"
+            android:layout_marginTop="150dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="297dp"
+                android:layout_height="129dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/mybrain"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/ic_logo"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/activity_main_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/roundedshape"
+            android:text="Se connecter"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/activity_main_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vous n'avez pas un compte?"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+</LinearLayout>

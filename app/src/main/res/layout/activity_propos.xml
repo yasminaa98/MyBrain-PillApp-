@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="196dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="148dp"
+            android:layout_height="92dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/mybrain"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="92dp"
+            android:layout_height="114dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ic_logo"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="My Brain :"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:text="Avez vous un être proche atteint par une démence telle que l'Alzheimer?!  "
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="10dp"
+            android:text="Avez vous des empêchements du coup lui surveiller vous présente un problème majeur!?"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="10dp"
+            android:text="Nous avons trouvé la solution pour vous My Brain vous aide à suivre votre patient à distance. "
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:text="1) Profil:"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:text="Dès l'inscription vos données seront automatiquement sauvegardées mais cela ne vous empêche pas de les modifier en cliquant sur le pictogramme de 'profile' après vous choisissez l'icône de jeune homme et vous modifiez vos coordonnées
+            Dans la même interface vous trouverez une autre icône d'un vieillard c'est pour créer la fiche de patient. "
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:text="2) configurer le temps des prises:"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:text="Vous entrez le temps (heure/minute) des trois prises et vous sauvegardez."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:text="3) Historique des prises :"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:text="Vous pouvez vérifier si le patient a pris ses comprimés  ou pas en recevant des notifications ou bien vous pouvez consulter l'historique des prises directement dans l'interface Historique."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:text="4) Déconnexion:"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:text="Pour se déconnecter de l'application il suffit  de presser le bouton rouge en haut à droite de l'écran dans l'interface Menu."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="votre_email">votre_email</string>
+    <string name="app_name">app_name</string>
+    <string-array name="members">
+        <item>Choisir le Lien de parenté</item>
+        <item>Fils</item>
+        <item>Fille</item>
+        <item>Femme</item>
+        <item>Mari</item>
+        <item>Medecin</item>
+        <item>Cousin</item>
+        <item>Cousine</item>
+        <item>Frére</item>
+        <item>Soeur</item>
+    </string-array>
+    <string name="bienvenue">Bienvenue</string>
+</resources>

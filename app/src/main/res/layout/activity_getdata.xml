@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="196dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="148dp"
+                android:layout_height="92dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/mybrain"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="92dp"
+                android:layout_height="114dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/ic_logo"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Historique des prises :"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prise1: "
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp"/>
+
+
+        <EditText
+            android:id="@+id/prisemed1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/white"
+            android:hint="prise 1 :"
+            android:editable="false"
+            android:textColorHint="@color/white"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prise 2: "
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:id="@+id/prisemed2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:hint="prise 2 :"
+            android:editable="false"
+            android:textColorHint="@color/white"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prise 3:"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:id="@+id/prisemed3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:hint="prise 3 :"
+            android:editable="false"
+            android:textColorHint="@color/white"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+        <Button
+            android:id="@+id/retour"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/roundedshape"
+            android:text="Retour"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="196dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="148dp"
+                android:layout_height="92dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/mybrain"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="92dp"
+                android:layout_height="114dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/ic_logo"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Modifier votre profil :"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:text="Nom et Prenom:"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/nomprenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom et prenom"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/white"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Age:"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/white"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:maxLength="2"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Occupation:"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:id="@+id/occupation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Occupation"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/white"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:inputType="text"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Email:"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:id="@+id/register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:editable="false"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Lien de parenté :"
+            android:textColor="#FFFFFF" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            android:entries="@array/members"
+            android:popupBackground="@color/design_default_color_secondary_variant"
+
+            android:textColor="@color/white"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+
+        <Button
+            android:id="@+id/user_modif"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/roundedshape"
+            android:text="Enregistrer les modifications "
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

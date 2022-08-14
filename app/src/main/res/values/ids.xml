@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="delete" type="id" />
+    <item name="openAdd" type="id" />
+    <item name="alarmView" type="id" />
+</resources>
